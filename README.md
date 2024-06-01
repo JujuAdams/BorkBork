@@ -1,4 +1,4 @@
-<h1 align="center">BorkBork 1.0.0</h1>
+<h1 align="center">BorkBork 1.0.1</h1>
 
 <p align="center">Advanced emitters for GameMaker for GameMaker 2024.4 by <a href="https://www.jujuadams.com/" target="_blank">Juju Adams</a></p>
 

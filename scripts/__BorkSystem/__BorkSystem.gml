@@ -1,6 +1,6 @@
 // Feather disable all
 
-#macro BORK_VERSION  "1.0.0"
+#macro BORK_VERSION  "1.0.1"
 #macro BORK_DATE     "2024-06-01"
 
 function __BorkSystem()
