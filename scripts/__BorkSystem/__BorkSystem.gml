@@ -18,6 +18,11 @@ function __BorkSystem()
         
         __emitterArray = [];
         
+        //Set up default behaviours within GM's audio system
+        audio_falloff_set_model(BORK_FALLOFF_MODEL);
+        audio_listener_set_orientation(BORK_LISTENER_INDEX,   0, 0, 1,   0, -1, 0);
+        audio_listener_set_position(BORK_LISTENER_INDEX,   0, 0, 0);
+        
         time_source_start(time_source_create(time_source_global, 1, time_source_units_frames, function()
         {
             static _emitterArray = __emitterArray;

@@ -11,3 +11,10 @@
 //prevent audio from quickly, and distractingly, moving from one ear to another as the listener
 //position passes by the emitter
 #macro BORK_LISTENER_HEAD_SIZE  0
+
+//Listener index to use for Bork functions
+#macro BORK_LISTENER_INDEX  0
+
+//Falloff model to use. This is set globally on boot. You probably don't need to adjust this but
+//the option is there if you do!
+#macro BORK_FALLOFF_MODEL  audio_falloff_exponent_distance_scaled

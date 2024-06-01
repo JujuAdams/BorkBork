@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"(System)","order":1,"path":"folders/BorkBork/(System).yy",},
-    {"name":"Listener","order":2,"path":"folders/BorkBork/Listener.yy",},
     {"name":"Creators","order":3,"path":"folders/BorkBork/Creators.yy",},
+    {"name":"Listener","order":2,"path":"folders/BorkBork/Listener.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"rMain","order":2,"path":"rooms/rMain/rMain.yy",},
