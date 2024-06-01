@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"BorkListenerGetX",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BorkListenerGetX",
+  "parent":{
+    "name":"Listener",
+    "path":"folders/BorkBork/Listener.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

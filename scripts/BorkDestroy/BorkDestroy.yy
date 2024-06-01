@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"BorkDestroy",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BorkDestroy",
+  "parent":{
+    "name":"BorkBork",
+    "path":"folders/BorkBork.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

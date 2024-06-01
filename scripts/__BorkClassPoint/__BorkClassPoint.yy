@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"__BorkClassPoint",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__BorkClassPoint",
+  "parent":{
+    "name":"(System)",
+    "path":"folders/BorkBork/(System).yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"BorkListenerSetPosition",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BorkListenerSetPosition",
+  "parent":{
+    "name":"Listener",
+    "path":"folders/BorkBork/Listener.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

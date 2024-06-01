@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"BorkSetFalloff",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BorkSetFalloff",
+  "parent":{
+    "name":"BorkBork",
+    "path":"folders/BorkBork.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

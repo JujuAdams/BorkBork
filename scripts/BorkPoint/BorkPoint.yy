@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"BorkPoint",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BorkPoint",
+  "parent":{
+    "name":"Creators",
+    "path":"folders/BorkBork/Creators.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"__BorkClassCircle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__BorkClassCircle",
+  "parent":{
+    "name":"(System)",
+    "path":"folders/BorkBork/(System).yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

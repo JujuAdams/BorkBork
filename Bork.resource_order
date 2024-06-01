@@ -1,0 +1,28 @@
+{
+  "FolderOrderSettings":[
+    {"name":"(System)","order":1,"path":"folders/BorkBork/(System).yy",},
+    {"name":"Listener","order":2,"path":"folders/BorkBork/Listener.yy",},
+    {"name":"Creators","order":3,"path":"folders/BorkBork/Creators.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"rMain","order":2,"path":"rooms/rMain/rMain.yy",},
+    {"name":"__BorkClassCircle","order":4,"path":"scripts/__BorkClassCircle/__BorkClassCircle.yy",},
+    {"name":"__BorkClassPoint","order":3,"path":"scripts/__BorkClassPoint/__BorkClassPoint.yy",},
+    {"name":"__BorkClassPolygon","order":7,"path":"scripts/__BorkClassPolygon/__BorkClassPolygon.yy",},
+    {"name":"__BorkClassPolyline","order":6,"path":"scripts/__BorkClassPolyline/__BorkClassPolyline.yy",},
+    {"name":"__BorkClassRectangle","order":5,"path":"scripts/__BorkClassRectangle/__BorkClassRectangle.yy",},
+    {"name":"__BorkError","order":2,"path":"scripts/__BorkError/__BorkError.yy",},
+    {"name":"__BorkTrace","order":1,"path":"scripts/__BorkTrace/__BorkTrace.yy",},
+    {"name":"BorkCircle","order":1,"path":"scripts/BorkCircle/BorkCircle.yy",},
+    {"name":"BorkDestroy","order":5,"path":"scripts/BorkDestroy/BorkDestroy.yy",},
+    {"name":"BorkExists","order":4,"path":"scripts/BorkExists/BorkExists.yy",},
+    {"name":"BorkGetPosition","order":6,"path":"scripts/BorkGetPosition/BorkGetPosition.yy",},
+    {"name":"BorkListenerGetX","order":1,"path":"scripts/BorkListenerGetX/BorkListenerGetX.yy",},
+    {"name":"BorkListenerGetY","order":2,"path":"scripts/BorkListenerGetY/BorkListenerGetY.yy",},
+    {"name":"BorkPolygon","order":3,"path":"scripts/BorkPolygon/BorkPolygon.yy",},
+    {"name":"BorkPolyline","order":4,"path":"scripts/BorkPolyline/BorkPolyline.yy",},
+    {"name":"BorkRectangle","order":2,"path":"scripts/BorkRectangle/BorkRectangle.yy",},
+    {"name":"BorkSetFalloff","order":8,"path":"scripts/BorkSetFalloff/BorkSetFalloff.yy",},
+    {"name":"BorkSetPosition","order":7,"path":"scripts/BorkSetPosition/BorkSetPosition.yy",},
+  ],
+}

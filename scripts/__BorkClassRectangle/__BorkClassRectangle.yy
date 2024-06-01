@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"__BorkClassRectangle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__BorkClassRectangle",
+  "parent":{
+    "name":"(System)",
+    "path":"folders/BorkBork/(System).yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
