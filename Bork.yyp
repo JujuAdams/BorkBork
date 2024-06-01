@@ -15,7 +15,9 @@
     {"$GMFolder":"","%Name":"Listener","folderPath":"folders/BorkBork/Listener.yy","name":"Listener","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Creators","folderPath":"folders/BorkBork/Creators.yy","name":"Creators","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"borkbork_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"borkbork_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
