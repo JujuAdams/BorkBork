@@ -9,6 +9,6 @@
 Contains custom audio emitters for the following shapes:
 - Point
 - Circle
-- Rectangle
+- Rectangle/Square
 - Polyline
 - Polygon
