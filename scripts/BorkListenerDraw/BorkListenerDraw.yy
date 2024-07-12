@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"BorkListenerDraw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BorkListenerDraw",
+  "parent":{
+    "name":"Listener",
+    "path":"folders/BorkBork/Listener.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

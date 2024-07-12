@@ -41,6 +41,7 @@
     {"id":{"name":"BorkDraw","path":"scripts/BorkDraw/BorkDraw.yy",},},
     {"id":{"name":"BorkExists","path":"scripts/BorkExists/BorkExists.yy",},},
     {"id":{"name":"BorkGetPosition","path":"scripts/BorkGetPosition/BorkGetPosition.yy",},},
+    {"id":{"name":"BorkListenerDraw","path":"scripts/BorkListenerDraw/BorkListenerDraw.yy",},},
     {"id":{"name":"BorkListenerGetX","path":"scripts/BorkListenerGetX/BorkListenerGetX.yy",},},
     {"id":{"name":"BorkListenerGetY","path":"scripts/BorkListenerGetY/BorkListenerGetY.yy",},},
     {"id":{"name":"BorkListenerSetPosition","path":"scripts/BorkListenerSetPosition/BorkListenerSetPosition.yy",},},

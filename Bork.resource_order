@@ -19,6 +19,7 @@
     {"name":"BorkDraw","order":9,"path":"scripts/BorkDraw/BorkDraw.yy",},
     {"name":"BorkExists","order":4,"path":"scripts/BorkExists/BorkExists.yy",},
     {"name":"BorkGetPosition","order":6,"path":"scripts/BorkGetPosition/BorkGetPosition.yy",},
+    {"name":"BorkListenerDraw","order":3,"path":"scripts/BorkListenerDraw/BorkListenerDraw.yy",},
     {"name":"BorkListenerGetX","order":1,"path":"scripts/BorkListenerGetX/BorkListenerGetX.yy",},
     {"name":"BorkListenerGetY","order":2,"path":"scripts/BorkListenerGetY/BorkListenerGetY.yy",},
     {"name":"BorkPolygon","order":3,"path":"scripts/BorkPolygon/BorkPolygon.yy",},
