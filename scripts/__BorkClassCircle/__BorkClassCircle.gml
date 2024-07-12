@@ -69,14 +69,13 @@ function __BorkClassCircle(_x, _y, _radius) constructor
     
     static __Draw = function()
     {
-        draw_line(__x-7, __y-7, __x+7, __y+7);
-        draw_line(__x+7, __y-7, __x-7, __y+7);
-        draw_rectangle(__x-3, __y-3, __x+3, __y+3, true);
+        draw_line(__actualX-7, __actualY-7, __actualX+7, __actualY+7);
+        draw_line(__actualX+7, __actualY-7, __actualX-7, __actualY+7);
         
         draw_circle(__x, __y, __radius, true);
         
-        draw_circle(__x, __y, __falloffMin, true);
-        draw_circle(__x, __y, __falloffMax, true);
+        draw_circle(__actualX, __actualY, __falloffMin, true);
+        draw_circle(__actualX, __actualY, __falloffMax, true);
     }
     
     static __Update = function()

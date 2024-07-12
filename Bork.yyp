@@ -51,6 +51,7 @@
     {"id":{"name":"BorkRectangle","path":"scripts/BorkRectangle/BorkRectangle.yy",},},
     {"id":{"name":"BorkSetFalloff","path":"scripts/BorkSetFalloff/BorkSetFalloff.yy",},},
     {"id":{"name":"BorkSetPosition","path":"scripts/BorkSetPosition/BorkSetPosition.yy",},},
+    {"id":{"name":"snd1KHz","path":"sounds/snd1KHz/snd1KHz.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

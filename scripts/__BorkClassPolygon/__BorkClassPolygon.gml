@@ -82,9 +82,8 @@ function __BorkClassPolygon(_radius, _pointArray, _x, _y) constructor
     
     static __Draw = function()
     {
-        draw_line(__x-7, __y-7, __x+7, __y+7);
-        draw_line(__x+7, __y-7, __x-7, __y+7);
-        draw_rectangle(__x-3, __y-3, __x+3, __y+3, true);
+        draw_line(__actualX-7, __actualY-7, __actualX+7, __actualY+7);
+        draw_line(__actualX+7, __actualY-7, __actualX-7, __actualY+7);
         
         draw_primitive_begin(pr_linestrip);
         
@@ -98,8 +97,8 @@ function __BorkClassPolygon(_radius, _pointArray, _x, _y) constructor
         draw_primitive_end();
         draw_circle(__actualX, __actualY, __radius, true);
         
-        draw_circle(__x, __y, __falloffMin, true);
-        draw_circle(__x, __y, __falloffMax, true);
+        draw_circle(__actualX, __actualY, __falloffMin, true);
+        draw_circle(__actualX, __actualY, __falloffMax, true);
     }
     
     static __Update = function()
@@ -237,8 +236,8 @@ function __BorkClassPolygon(_radius, _pointArray, _x, _y) constructor
             _i += 2;
         }
         
-        __x = 0.5*(__left + __right);
-        __y = 0.5*(__top + __bottom);
+        __x += 0.5*(__left + __right);
+        __y += 0.5*(__top + __bottom);
     }
     
     static __DistanceToEdge = function(_px, _py, _x0, _y0, _x1, _y1)

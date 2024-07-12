@@ -27,5 +27,6 @@
     {"name":"BorkRectangle","order":2,"path":"scripts/BorkRectangle/BorkRectangle.yy",},
     {"name":"BorkSetFalloff","order":8,"path":"scripts/BorkSetFalloff/BorkSetFalloff.yy",},
     {"name":"BorkSetPosition","order":7,"path":"scripts/BorkSetPosition/BorkSetPosition.yy",},
+    {"name":"snd1KHz","order":4,"path":"sounds/snd1KHz/snd1KHz.yy",},
   ],
 }
