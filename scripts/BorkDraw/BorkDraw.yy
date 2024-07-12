@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"__BorkClassPolyline",
+  "%Name":"BorkDraw",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"__BorkClassPolyline",
+  "name":"BorkDraw",
   "parent":{
-    "name":"(System)",
-    "path":"folders/BorkBork/(System).yy",
+    "name":"BorkBork",
+    "path":"folders/BorkBork.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -16,7 +16,8 @@ function __BorkSystem()
         __listenerX = 0;
         __listenerY = 0;
         
-        __emitterArray = [];
+        __borkArray    = [];
+        __gmEmitterMap = ds_map_create();
         
         //Set up default behaviours within GM's audio system
         audio_falloff_set_model(BORK_FALLOFF_MODEL);
@@ -25,14 +26,16 @@ function __BorkSystem()
         
         time_source_start(time_source_create(time_source_global, 1, time_source_units_frames, function()
         {
-            static _emitterArray = __emitterArray;
+            static _borkArray    = __borkArray;
+            static _gmEmitterMap = __gmEmitterMap;
             
             var _i = 0;
-            repeat(array_length(_emitterArray))
+            repeat(array_length(_borkArray))
             {
-                if (not _emitterArray[_i].__Update())
+                if (not _borkArray[_i].__Update())
                 {
-                    array_delete(_emitterArray, _i, 1);
+                    ds_map_delete(_gmEmitterMap, _borkArray[_i].__gmEmitter);
+                    array_delete(_borkArray, _i, 1);
                 }
                 else
                 {
@@ -42,6 +45,8 @@ function __BorkSystem()
         },
         [], -1));
     }
+    
+    if (GM_build_type == "run") global.BorkBork = _system;
     
     return _system;
 }

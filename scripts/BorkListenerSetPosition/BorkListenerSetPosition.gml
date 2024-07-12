@@ -11,15 +11,15 @@
 
 function BorkListenerSetPosition(_x, _y, _updateEmitters = false)
 {
-    static _system       = __BorkSystem();
-    static _emitterArray = _system.__emitterArray;
+    static _system    = __BorkSystem();
+    static _borkArray = _system.__borkArray;
     
     if (_updateEmitters && ((_x != _system.__listenerX) || (_y != _system.__listenerY)))
     {
         var _i = 0;
-        repeat(array_length(_emitterArray))
+        repeat(array_length(_borkArray))
         {
-            _emitterArray[_i].__Update();
+            _borkArray[_i].__Update();
             ++_i;
         }
     }

@@ -5,6 +5,7 @@
     {"name":"Listener","order":2,"path":"folders/BorkBork/Listener.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"oTest","order":3,"path":"objects/oTest/oTest.yy",},
     {"name":"rMain","order":2,"path":"rooms/rMain/rMain.yy",},
     {"name":"__BorkClassCircle","order":4,"path":"scripts/__BorkClassCircle/__BorkClassCircle.yy",},
     {"name":"__BorkClassPoint","order":3,"path":"scripts/__BorkClassPoint/__BorkClassPoint.yy",},
@@ -15,6 +16,7 @@
     {"name":"__BorkTrace","order":1,"path":"scripts/__BorkTrace/__BorkTrace.yy",},
     {"name":"BorkCircle","order":1,"path":"scripts/BorkCircle/BorkCircle.yy",},
     {"name":"BorkDestroy","order":5,"path":"scripts/BorkDestroy/BorkDestroy.yy",},
+    {"name":"BorkDraw","order":9,"path":"scripts/BorkDraw/BorkDraw.yy",},
     {"name":"BorkExists","order":4,"path":"scripts/BorkExists/BorkExists.yy",},
     {"name":"BorkGetPosition","order":6,"path":"scripts/BorkGetPosition/BorkGetPosition.yy",},
     {"name":"BorkListenerGetX","order":1,"path":"scripts/BorkListenerGetX/BorkListenerGetX.yy",},

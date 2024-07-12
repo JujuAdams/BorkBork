@@ -21,10 +21,11 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.6.0.157",
   },
   "name":"Bork",
   "resources":[
+    {"id":{"name":"oTest","path":"objects/oTest/oTest.yy",},},
     {"id":{"name":"rMain","path":"rooms/rMain/rMain.yy",},},
     {"id":{"name":"__BorkClassCircle","path":"scripts/__BorkClassCircle/__BorkClassCircle.yy",},},
     {"id":{"name":"__BorkClassPoint","path":"scripts/__BorkClassPoint/__BorkClassPoint.yy",},},
@@ -37,6 +38,7 @@
     {"id":{"name":"__BorkTrace","path":"scripts/__BorkTrace/__BorkTrace.yy",},},
     {"id":{"name":"BorkCircle","path":"scripts/BorkCircle/BorkCircle.yy",},},
     {"id":{"name":"BorkDestroy","path":"scripts/BorkDestroy/BorkDestroy.yy",},},
+    {"id":{"name":"BorkDraw","path":"scripts/BorkDraw/BorkDraw.yy",},},
     {"id":{"name":"BorkExists","path":"scripts/BorkExists/BorkExists.yy",},},
     {"id":{"name":"BorkGetPosition","path":"scripts/BorkGetPosition/BorkGetPosition.yy",},},
     {"id":{"name":"BorkListenerGetX","path":"scripts/BorkListenerGetX/BorkListenerGetX.yy",},},

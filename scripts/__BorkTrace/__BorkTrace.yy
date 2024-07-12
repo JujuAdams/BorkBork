@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"__BorkTrace",
   "isCompatibility":false,
   "isDnD":false,

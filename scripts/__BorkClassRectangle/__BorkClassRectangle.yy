@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"__BorkClassRectangle",
   "isCompatibility":false,
   "isDnD":false,

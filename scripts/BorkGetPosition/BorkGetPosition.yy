@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"BorkGetPosition",
   "isCompatibility":false,
   "isDnD":false,

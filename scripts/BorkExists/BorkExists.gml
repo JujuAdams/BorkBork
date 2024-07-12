@@ -7,6 +7,6 @@
 
 function BorkExists(_borkEmitter)
 {
-    static _emitterArray = __BorkSystem().__emitterArray;
-    return (audio_emitter_exists(_borkEmitter) && (array_get_index(_emitterArray, _borkEmitter) >= 0));
+    static _gmEmitterMap = __BorkSystem().__gmEmitterMap;
+    return (audio_emitter_exists(_borkEmitter) && ds_map_exists(_gmEmitterMap, _borkEmitter));
 }

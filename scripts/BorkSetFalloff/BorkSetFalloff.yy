@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"BorkSetFalloff",
   "isCompatibility":false,
   "isDnD":false,

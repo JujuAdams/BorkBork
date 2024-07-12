@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"BorkPolygon",
   "isCompatibility":false,
   "isDnD":false,

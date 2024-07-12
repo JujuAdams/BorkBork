@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"BorkRectangle",
   "isCompatibility":false,
   "isDnD":false,

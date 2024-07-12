@@ -7,9 +7,14 @@
 
 function __BorkClassRectangle(_left, _top, _right, _bottom) constructor
 {
-    static _system = __BorkSystem();
+    static _system       = __BorkSystem();
+    static _borkArray    = _system.__borkArray;
+    static _gmEmitterMap = _system.__gmEmitterMap;
     
     __gmEmitter = audio_emitter_create();
+    
+    array_push(_borkArray, self);
+    _gmEmitterMap[? __gmEmitter] = self;
     
     __left   = -0.5*BORK_LISTENER_HEAD_SIZE + _left;
     __top    = -0.5*BORK_LISTENER_HEAD_SIZE + _top;

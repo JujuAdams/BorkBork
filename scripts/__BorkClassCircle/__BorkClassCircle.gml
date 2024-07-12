@@ -6,9 +6,14 @@
 
 function __BorkClassCircle(_x, _y, _radius) constructor
 {
-    static _system = __BorkSystem();
+    static _system       = __BorkSystem();
+    static _borkArray    = _system.__borkArray;
+    static _gmEmitterMap = _system.__gmEmitterMap;
     
     __gmEmitter = audio_emitter_create();
+    
+    array_push(_borkArray, self);
+    _gmEmitterMap[? __gmEmitter] = self;
     
     __x      = _x;
     __y      = _y;

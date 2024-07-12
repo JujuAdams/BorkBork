@@ -9,10 +9,10 @@
 
 function BorkSetPosition(_borkEmitter, _x, _y)
 {
-    static _emitterArray = __BorkSystem().__emitterArray;
+    static _gmEmitterMap = __BorkSystem().__gmEmitterMap;
     
-    var _index = (array_get_index(_emitterArray, _borkEmitter) >= 0);
-    if (_index < 0) return;
+    var _borkStruct = _gmEmitterMap[? _borkEmitter];
+    if (_borkStruct == undefined) return undefined;
     
-    return _emitterArray[_index].__SetPosition(_x, _y);
+    return _borkStruct.__SetPosition(_x, _y);
 }

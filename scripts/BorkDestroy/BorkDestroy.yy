@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"BorkDestroy",
   "isCompatibility":false,
   "isDnD":false,
