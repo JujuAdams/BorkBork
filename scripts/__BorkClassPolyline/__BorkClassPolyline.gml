@@ -20,7 +20,7 @@ function __BorkClassPolyline(_radius, _pointArray, _x, _y) constructor
     if ((_length mod 2) != 0) __BorkError("Polyline-type emitters should have an even number of elements, structured as coordinate pairs (length=", _length, ")");
     if (_length < 4) __BorkError("Polyline-type emitters should have at least 2 coordinate pairs (length=", _length, ")");
     
-    __radius     = _radius + 0.5*BORK_LISTENER_HEAD_SIZE;
+    __radius     = _radius;
     __pointArray = _pointArray;
     __x          = _x;
     __y          = _y;
@@ -89,7 +89,7 @@ function __BorkClassPolyline(_radius, _pointArray, _x, _y) constructor
         }
         
         draw_primitive_end();
-        draw_circle(__actualX, __actualY, __radius, true);
+        draw_circle(__actualX, __actualY, __radius + 0.5*_system.__headSize, true);
         
         draw_circle(__actualX, __actualY, __falloffMin, true);
         draw_circle(__actualX, __actualY, __falloffMax, true);
@@ -151,13 +151,15 @@ function __BorkClassPolyline(_radius, _pointArray, _x, _y) constructor
     
     static __ManageFromCircle = function(_circleX, _circleY)
     {
+        var _radius = __radius + 0.5*_system.__headSize;
+        
         var _dX = _system.__listenerX - _circleX;
         var _dY = _system.__listenerY - _circleY;
         
         var _length = sqrt(_dX*_dX + _dY*_dY);
-        if (_length > __radius)
+        if (_length > _radius)
         {
-            var _factor = __radius/_length;
+            var _factor = _radius/_length;
             __actualX = _factor*_dX + _circleX;
             __actualY = _factor*_dY + _circleY;
         }

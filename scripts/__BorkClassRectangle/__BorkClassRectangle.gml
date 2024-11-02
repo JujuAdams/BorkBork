@@ -16,10 +16,10 @@ function __BorkClassRectangle(_left, _top, _right, _bottom) constructor
     array_push(_borkArray, self);
     _gmEmitterMap[? __gmEmitter] = self;
     
-    __left   = -0.5*BORK_LISTENER_HEAD_SIZE + _left;
-    __top    = -0.5*BORK_LISTENER_HEAD_SIZE + _top;
-    __right  =  0.5*BORK_LISTENER_HEAD_SIZE + _right;
-    __bottom =  0.5*BORK_LISTENER_HEAD_SIZE + _bottom;
+    __left   = _left;
+    __top    = _top;
+    __right  = _right;
+    __bottom = _bottom;
     
     __x = 0.5*(__left + __right);
     __y = 0.5*(__top + __bottom);
@@ -85,7 +85,8 @@ function __BorkClassRectangle(_left, _top, _right, _bottom) constructor
         draw_line(__actualX-7, __actualY-7, __actualX+7, __actualY+7);
         draw_line(__actualX+7, __actualY-7, __actualX-7, __actualY+7);
         
-        draw_rectangle(__left, __top, __right, __bottom, true);
+        var _headOffset = 0.5*_system.__headSize;
+        draw_rectangle(__left - _headOffset, __top - _headOffset, __right + _headOffset, __bottom + _headOffset, true);
         
         draw_circle(__actualX, __actualY, __falloffMin, true);
         draw_circle(__actualX, __actualY, __falloffMax, true);
@@ -95,8 +96,9 @@ function __BorkClassRectangle(_left, _top, _right, _bottom) constructor
     {
         if (not audio_emitter_exists(__gmEmitter)) return false;
         
-        __actualX = clamp(_system.__listenerX, __left, __right );
-        __actualY = clamp(_system.__listenerY, __top,  __bottom);
+        var _headOffset = 0.5*_system.__headSize;
+        __actualX = clamp(_system.__listenerX, __left - _headOffset, __right  + _headOffset);
+        __actualY = clamp(_system.__listenerY, __top  - _headOffset, __bottom + _headOffset);
         audio_emitter_position(__gmEmitter, __actualX, __actualY, 0);
         
         return true;

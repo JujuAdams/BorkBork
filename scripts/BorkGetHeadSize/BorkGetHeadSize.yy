@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"BorkGetHeadSize",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BorkGetHeadSize",
+  "parent":{
+    "name":"BorkBork",
+    "path":"folders/BorkBork.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

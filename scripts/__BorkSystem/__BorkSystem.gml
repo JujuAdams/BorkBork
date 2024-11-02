@@ -16,6 +16,8 @@ function __BorkSystem()
         __listenerX = 0;
         __listenerY = 0;
         
+        __headSize = 0;
+        
         __borkArray    = [];
         __gmEmitterMap = ds_map_create();
         

@@ -5,13 +5,6 @@
 #macro BORK_DEFAULT_FALLOFF_MAX     200
 #macro BORK_DEFAULT_FALLOFF_FACTOR    1
 
-//Simulates the "head" size of the listener. This applies an offset to all Bork emitters,
-//increasing their size to more realistically position emitter audio in the stereo field. This
-//is particularly noticeable when using point emitters - setting an appropriate head size will
-//prevent audio from quickly, and distractingly, moving from one ear to another as the listener
-//position passes by the emitter
-#macro BORK_LISTENER_HEAD_SIZE  0
-
 //Listener index to use for Bork functions
 #macro BORK_LISTENER_INDEX  0
 
