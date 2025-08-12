@@ -3,6 +3,12 @@
 BorkDraw(borkEmitter);
 BorkListenerDraw();
 
+draw_arrow(BorkListenerGetX(),
+           BorkListenerGetY(),
+           BorkListenerGetX() + lengthdir_x(BorkGetDistance(borkEmitter), BorkGetDirection(borkEmitter, 0)),
+           BorkListenerGetY() + lengthdir_y(BorkGetDistance(borkEmitter), BorkGetDirection(borkEmitter, 0)),
+           10);
+
 var _string = "";
 _string += "BorkBork " + BORK_VERSION + ", " + BORK_DATE + "\n";
 _string += "\n";
