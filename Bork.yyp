@@ -40,6 +40,8 @@
     {"id":{"name":"BorkDestroy","path":"scripts/BorkDestroy/BorkDestroy.yy",},},
     {"id":{"name":"BorkDraw","path":"scripts/BorkDraw/BorkDraw.yy",},},
     {"id":{"name":"BorkExists","path":"scripts/BorkExists/BorkExists.yy",},},
+    {"id":{"name":"BorkGetDirection","path":"scripts/BorkGetDirection/BorkGetDirection.yy",},},
+    {"id":{"name":"BorkGetDistance","path":"scripts/BorkGetDistance/BorkGetDistance.yy",},},
     {"id":{"name":"BorkGetHeadSize","path":"scripts/BorkGetHeadSize/BorkGetHeadSize.yy",},},
     {"id":{"name":"BorkGetPosition","path":"scripts/BorkGetPosition/BorkGetPosition.yy",},},
     {"id":{"name":"BorkListenerDraw","path":"scripts/BorkListenerDraw/BorkListenerDraw.yy",},},

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"BorkGetDirection",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BorkGetDirection",
+  "parent":{
+    "name":"BorkBork",
+    "path":"folders/BorkBork.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

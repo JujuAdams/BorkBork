@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"BorkGetDistance",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BorkGetDistance",
+  "parent":{
+    "name":"BorkBork",
+    "path":"folders/BorkBork.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
