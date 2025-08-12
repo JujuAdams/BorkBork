@@ -8,7 +8,7 @@ function __BorkSystem()
     static _system = undefined;
     if (_system != undefined) return _system;
     
-    __BorkTrace("Welcome to BorkBork by Juju Adams! This is version ", BORK_VERSION, ", ", BORK_DATE);
+    __BorkTrace("Welcome to BorkBork by Juju Adams! This is version ", BORK_VERSION, ", ", BORK_DATE, "(GM version ", GM_runtime_version, ")");
     
     _system = {};
     with(_system)
@@ -22,7 +22,28 @@ function __BorkSystem()
         __gmEmitterMap = ds_map_create();
         
         //Set up default behaviours within GM's audio system
-        audio_falloff_set_model(BORK_FALLOFF_MODEL);
+        
+        var _vinylFalloff = undefined;
+        try
+        {
+            _vinylFalloff = VINYL_AUDIO_FALLOFF_MODEL;
+        }
+        catch(_error)
+        {
+            
+        }
+        
+        if ((_vinylFalloff != undefined) && (BORK_FALLOFF_MODEL == undefined))
+        {
+            __BorkError("Please set `BORK_FALLOFF_MODEL` to `undefined` when using Vinyl");
+        }
+        
+        var _falloffModel = _vinylFalloff ?? BORK_FALLOFF_MODEL;
+        if (_falloffModel != undefined)
+        {
+            audio_falloff_set_model(BORK_FALLOFF_MODEL);
+        }
+        
         audio_listener_set_orientation(BORK_LISTENER_INDEX,   0, 0, 1,   0, -1, 0);
         audio_listener_set_position(BORK_LISTENER_INDEX,   0, 0, 0);
         
